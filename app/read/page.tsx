@@ -11,7 +11,7 @@ export default function ReadPage() {
     
       <div className="prose dark:prose-invert">
         {allPosts
-          .filter((post) => post.type === "text")
+          .filter((post) => post.postType === "text")
           .map((post) => (
           <article key={post._id}>
             <Link href={post.slug}>
