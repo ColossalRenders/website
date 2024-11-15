@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from 'next/image'
 
 export default function Home() {
-  return (
+  return [
     <div>
       <Image
         src="/blog-post-4.jpg"
@@ -23,5 +23,5 @@ export default function Home() {
         </article>
       ))}
     </div>
-  )
+  ]
 }
