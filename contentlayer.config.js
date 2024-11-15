@@ -33,26 +33,10 @@ export const Post = defineDocumentType(() => ({
   filePathPattern: `posts/**/*.mdx`,
   contentType: "mdx",
   fields: {
-    title: {
+    postType: {
       type: "string",
       required: true,
     },
-    description: {
-      type: "string",
-    },
-    date: {
-      type: "date",
-      required: true,
-    },
-  },
-  computedFields,
-}))
-
-export const ImagePost = defineDocumentType(() => ({
-  name: "ImgPost",
-  filePathPattern: `posts/image/**/*.mdx`,
-  contentType: "mdx",
-  fields: {
     title: {
       type: "string",
       required: true,
@@ -73,5 +57,5 @@ export const ImagePost = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: "./content",
-  documentTypes: [Post, Page, ImagePost],
+  documentTypes: [Post, Page],
 })
