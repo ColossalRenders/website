@@ -11,7 +11,7 @@ export default function Home() {
         height={500}
         alt="Picture of the author"
       />
-    </div>
+    </div>,
     
     <div className="prose dark:prose-invert">
       {allPosts.map((post) => (
