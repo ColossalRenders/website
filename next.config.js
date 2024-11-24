@@ -4,7 +4,6 @@ const { withContentlayer } = require("next-contentlayer");
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  +  transpilePackages: ["geist"],
 };
 
 module.exports = withContentlayer(nextConfig);
