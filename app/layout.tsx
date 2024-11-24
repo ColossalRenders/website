@@ -1,11 +1,16 @@
 import Link from "next/link"
 import "./globals.css"
 import { Inter } from "next/font/google"
+import { Noto_Sans } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
 
 const inter = Inter({ subsets: ["latin"] })
+const notoSans = Noto_Sans({ 
+  subsets: ["latin"], 
+  weight: ["400", "700"], 
+ })
 
 export const metadata = {
   title: "ColossalRenders",
@@ -20,7 +25,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${inter.className}`}
+        className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${notoSans.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="max-w-2xl mx-auto py-10 px-4">
