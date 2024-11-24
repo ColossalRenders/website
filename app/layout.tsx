@@ -43,8 +43,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </div>
             </header>
             <main>
-              {/* Allow children to be full width for images */}
-              <div className="w-full">{children}</div>
+              {}
             </main>
           </div>
           <Analytics />
