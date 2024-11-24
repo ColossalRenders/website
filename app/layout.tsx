@@ -27,7 +27,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${GeistSans.className} ${GeistMono.className}`}
+        className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${GeistSans.variable} ${GeistMono.variable}`}
         //style={{ fontFeatureSettings: "'ss04' on" }} // Enable stylistic set ss04
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
