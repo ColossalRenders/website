@@ -36,6 +36,17 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
+      <head>
+        {/* Ensure Merriweather is properly linked */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={` ${GeistSans.className} ${GeistMono.variable} ${merriweather.className}antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50`}
         //style={{ fontFeatureSettings: "'ss04' on" }} // Enable stylistic set ss04
