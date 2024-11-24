@@ -2,7 +2,8 @@ import Link from "next/link"
 import "./globals.css"
 import { Inter } from "next/font/google"
 import { Noto_Sans } from "next/font/google"
-import { Geist } from "next/font/google"
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
@@ -12,7 +13,7 @@ const notoSans = Noto_Sans({
   subsets: ["latin"], 
   weight: ["400", "700"], 
  })
-const geist = Geist({ 
+const geist = GeistSans({ 
   subsets: ["latin"], 
   weight: ["400", "700"], 
  })
