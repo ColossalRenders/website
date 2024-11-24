@@ -14,6 +14,7 @@ const notoSans = Noto_Sans({
   subsets: ["latin"], 
   weight: ["400", "700"], 
  })
+ const merriweather = Merriweather({ subsets: ["latin"] })
  const merriweatherItalic = Merriweather({
   subsets: ["latin"],
   weight: "400",
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={` ${GeistSans.className} ${GeistMono.variable} ${merriweatherItalic.className}antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50`}
+        className={` ${GeistSans.className} ${GeistMono.variable} ${merriweather.className}antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50`}
         //style={{ fontFeatureSettings: "'ss04' on" }} // Enable stylistic set ss04
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
