@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Apply GeistSans globally */
+body {
+    font-family: 'Geist Sans', sans-serif;
+  }
+  
+  /* Apply GeistMono to code blocks */
+  pre, code {
+    font-family: 'Geist Mono', monospace;
+  }
