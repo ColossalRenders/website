@@ -14,7 +14,10 @@ const notoSans = Noto_Sans({
   subsets: ["latin"], 
   weight: ["400", "700"], 
  })
- const merriweather = Merriweather({ subsets: ["latin"] })
+ const merriweather = Merriweather({
+   subsets: ["latin"],
+   weight: "300"
+ })
  const merriweatherItalic = Merriweather({
   subsets: ["latin"],
   weight: "400",
