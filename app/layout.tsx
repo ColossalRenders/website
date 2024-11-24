@@ -2,8 +2,8 @@ import Link from "next/link"
 import "./globals.css"
 import { Inter } from "next/font/google"
 import { Noto_Sans } from "next/font/google"
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
+import { GeistSans } from '@geist-ui/react/font';
+import { GeistMono } from '@geist-ui/react/font';
 import { ThemeProvider } from "@/components/theme-provider"
 import { Analytics } from "@/components/analytics"
 import { ModeToggle } from "@/components/mode-toggle"
