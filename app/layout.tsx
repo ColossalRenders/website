@@ -31,7 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         //style={{ fontFeatureSettings: "'ss04' on" }} // Enable stylistic set ss04
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-        <div className="w-full py-10 px-4">
+        <div className="w-screen py-10 px-4">
             <header>
               <div className="flex items-center justify-between">
                 <ModeToggle />
