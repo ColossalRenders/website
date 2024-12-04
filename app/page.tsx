@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-      <div className="w-full"> </><div>
+      <div className="w-full"> <div>
         <Image
           src="/blog-post-4.jpg"
           width={500}
