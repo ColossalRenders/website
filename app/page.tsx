@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <>
-      <div className="flex justify-center items-center"> <div>
+      <div className="justify-center items-center"> <div>
         <Image
           src="/blog-post-4.jpg"
           width={500}
