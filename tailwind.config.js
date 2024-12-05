@@ -16,7 +16,7 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            maxWidth: '80rem', // add required value here
+            maxWidth: '60rem', // add required value here
           }
         }
       }
