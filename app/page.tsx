@@ -9,12 +9,11 @@ export default function Home() {
   
   return (
     <>
-      <div className="justify-center items-center"> <div>
+      <div className="flex justify-center items-center">
         <Image
           src="/blog-post-4.jpg"
-          width={500}
-          height={500}
           alt="Picture of the author"
+          className="w-screen h-auto object-cover"
         />
       </div>
     
