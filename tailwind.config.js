@@ -13,6 +13,13 @@ module.exports = {
         mono: ['var(--font-geist-mono)'],
         italic: ['Merriweather', 'serif']
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: 'none', // add required value here
+          }
+        }
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],
