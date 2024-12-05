@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <>
-      <div className="min-w-screen"> <div>
+      <div className="flex justify-center items-center"> <div>
         <Image
           src="/blog-post-4.jpg"
           width={500}
