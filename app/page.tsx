@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <>
-      <div className="w-full"> <div>
+      <div className="min-w-screen"> <div>
         <Image
           src="/blog-post-4.jpg"
           width={500}
