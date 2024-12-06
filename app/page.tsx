@@ -10,11 +10,18 @@ export default function Home() {
   return (
     <>
       <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
-        <Image
-          src="/blog-post-4.jpg"
-          alt="Picture of the author"
-          className="w-screen h-auto object-cover"
-        />
+        <Link href="/posts/they-are-here">
+          <Image
+            src="/blog-post-4.jpg"
+            alt="Picture of the author"
+            className="w-full h-auto object-cover"
+            style={{ maxHeight: "500px" }}
+          />
+          {/* Text overlay */}
+          <div className="absolute bottom-0 left-0 p-4 bg-black bg-opacity-50 text-white font-semibold text-xl group-hover:underline">
+            They Are Here
+          </div>
+        </Link>
       </div>
     
       <div className="prose dark:prose-invert">
