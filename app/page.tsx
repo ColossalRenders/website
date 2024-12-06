@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from 'next/image'
 
 export default function Home() {
-  const sortedPosts = allPosts.sort(
+  const sortedPosts = allPosts.filter((post) => post.homePage).sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
   
