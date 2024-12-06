@@ -15,7 +15,7 @@ export default function Home() {
             src="/IMG_3418.jpeg"
             alt="Banner image"
             className="w-full h-auto object-cover object-[80%]"
-            style={{ maxHeight: "500px" }}
+            style={{ maxHeight: "30rem" }}
           />
           {/* Text overlay */}
           <div className="absolute bottom-0 left-0 p-4 text-white font-semibold text-4xl group-hover:underline">
