@@ -35,6 +35,7 @@ export const Post = defineDocumentType(() => ({
   fields: {
     homePage:{
       type: "boolean",
+      required: true,
     },
     postType: {
       type: "string",
