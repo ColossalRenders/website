@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
-        <Link href="/posts/they-are-here">
+        <Link href="/posts/we-are-here">
           <Image
             src="/IMG_3418.jpeg"
             alt="Banner image"
@@ -19,7 +19,7 @@ export default function Home() {
           />
           {/* Text overlay */}
           <div className="absolute bottom-0 left-0 p-4 text-white font-semibold text-4xl group-hover:underline">
-            They Are Here
+            We Are Here: Read part 1 of the Anthology
           </div>
         </Link>
       </div>
