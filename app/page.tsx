@@ -12,7 +12,7 @@ export default function Home() {
       <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
         <Link href="/posts/they-are-here">
           <Image
-            src="/DSCF9321_01.jpg"
+            src="/IMG_3418.jpeg"
             alt="Picture of the author"
             className="w-full h-auto object-cover object-[80%]"
             style={{ maxHeight: "500px" }}
