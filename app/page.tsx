@@ -18,7 +18,7 @@ export default function Home() {
             style={{ maxHeight: "500px" }}
           />
           {/* Text overlay */}
-          <div className="absolute bottom-0 left-0 p-4 text-black font-semibold text-4xl group-hover:underline">
+          <div className="absolute bottom-0 left-0 p-4 text-white font-semibold text-4xl group-hover:underline">
             They Are Here
           </div>
         </Link>
