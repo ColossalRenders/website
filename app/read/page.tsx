@@ -4,9 +4,9 @@ import Link from "next/link"
 export default function ReadPage() {
   return (
     <>
-      <div>
-        <h1>Read</h1>
-        <p>This is the Read page. eeeeeeee e eeeeeee e e eeeee e e eeeeeeeeeee eeeeeeee eeeeee eeeeeeeeeeeeee ee eeeeeeeeeeee e eeeeeee. eeeeeeee e eeee e? eeeeee!</p>
+      <div className="prose dark:prose-invert">
+        <h1>Read My Stories</h1>
+        <p>Short stories and series to come later!</p>
       </div>
     
       <div className="prose dark:prose-invert">
