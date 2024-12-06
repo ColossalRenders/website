@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <>
-      <div className="flex justify-center items-center">
+      <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
         <Image
           src="/blog-post-4.jpg"
           alt="Picture of the author"
