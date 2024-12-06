@@ -13,7 +13,7 @@ export default function Home() {
         <Link href="/posts/they-are-here">
           <Image
             src="/IMG_3418.jpeg"
-            alt="Picture of the author"
+            alt="Banner image"
             className="w-full h-auto object-cover object-[80%]"
             style={{ maxHeight: "500px" }}
           />
